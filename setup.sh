@@ -42,7 +42,6 @@ PACKAGES=(
     "obs-studio"
     "openssh"
     "gvfs"
-    "thunar-archive-plugin"
     "file-roller"
     "btop"
     "pacman-contrib"
