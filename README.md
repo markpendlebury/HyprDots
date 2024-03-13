@@ -1,7 +1,7 @@
 
 # HyprDots
 
-![GitHub last commit](https://img.shields.io/github/last-commit/markpendlebury/HyprDots) ![Static Badge](https://img.shields.io/badge/Prs-Welcome-blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/markpendlebury/HyprDots) ![Static Badge](https://img.shields.io/badge/Prs-Welcome-blue) ![GitHub forks](https://img.shields.io/github/forks/markpendlebury/hyprdots)
 
 
 A fully repeatable desktop environment built on Arch using Hyprland
