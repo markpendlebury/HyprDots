@@ -1,7 +1,7 @@
 
 # HyprDots
 
-![GitHub last commit](https://img.shields.io/github/last-commit/markpendlebury/HyprDots) ![Static Badge](https://img.shields.io/badge/Prs-Welcome-blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/markpendlebury/HyprDots) ![Static Badge](https://img.shields.io/badge/Prs-Welcome-blue) ![GitHub forks](https://img.shields.io/github/forks/markpendlebury/hyprdots)
 
 
 A fully repeatable desktop environment built on Arch using Hyprland
@@ -10,9 +10,9 @@ Welcome! My goal with this repository was to provide myself with a personal deve
 
 # Screenshots
 
-![Empty Desktop Screenshot](https://github.com/markpendlebury/HyprDots/blob/initial/Assets/desktop.png)
+![Empty Desktop Screenshot](https://github.com/markpendlebury/HyprDots/blob/main/Assets/desktop.png)
 
-![Application Screenshot](https://github.com/markpendlebury/HyprDots/blob/initial/Assets/apps.png)
+![Application Screenshot](https://github.com/markpendlebury/HyprDots/blob/main/Assets/apps.png)
 
 # Features
 
@@ -36,6 +36,9 @@ I strongly recommend you build this into a clean minimal installation of Arch. D
 
 # Usage
 Generally if I want to add a new tool or feature to my environment I'll start by creating a branch from main. Then I'll manually install the applications / tools or make whatever changes I want to then add it to the installation list inside `setup.sh`. If it's an application install and I want to maintain the configs I'll move them under `Dotfiles/` and create a `ln` line for them inside `setup.sh`. Once I'm happy with my changes I'll push my branch and merge into main.
+
+# Contributing
+You're welcome to contribute via PR but please keep in mind since these are my personal dots I'll be very picky over what i'll add / accept into main. Feel free to fork however and make them your own
 
 # Navigation
 I hardly use my mouse, only for things I really have to like interacting with firefox or other UI's that don't like keyboard shortcuts. For that reason my hyprland config is almost entirely designed around the following keyboad shortcuts:
