@@ -35,10 +35,10 @@ I strongly recommend you build this into a clean minimal installation of Arch. D
 5. Reboot
 
 # Usage
-Generally if i want to add a new tool or feature to my environment i'll start by creating a branch from main. Then i'll manually install the applications / tools or make whatever changes i want to. If it's an application install and I want to maintain the configs i'll move them under `Dotfiles/` and create a `ln` line for them inside `setup.sh`. Once i'm happy with my changes i'll push my branch and merge into main.
+Generally if I want to add a new tool or feature to my environment I'll start by creating a branch from main. Then I'll manually install the applications / tools or make whatever changes I want to then add it to the installation list inside `setup.sh`. If it's an application install and I want to maintain the configs I'll move them under `Dotfiles/` and create a `ln` line for them inside `setup.sh`. Once I'm happy with my changes I'll push my branch and merge into main.
 
 # Navigation
-I hardly use my mouse, only for things i really have to like interacting with firefox or other UI's that don't like keyboard shortcuts. For that reason my hyprland config is almost entirely designed around the following keyboad shortcuts:
+I hardly use my mouse, only for things I really have to like interacting with firefox or other UI's that don't like keyboard shortcuts. For that reason my hyprland config is almost entirely designed around the following keyboad shortcuts:
 
 Bindings are as follows: 
 `$mainMod = Super`
@@ -74,7 +74,7 @@ Bindings are as follows:
 
 
 # Notes
-As it currently stands, setup.sh is designed to be used on a fresh installation of Arch, whilst it is technically possible to use it to "keep your env in sync" so to speak - i haven't fully tested it yet. Ideally I'd like it to function in a similar way to how nix works where `setup.sh` runs priodically to keep my system in sync. Or maybe i'll just switch to nixos as somepoint....
+As it currently stands, setup.sh is designed to be used on a fresh installation of Arch, whilst it is technically possible to use it to "keep your env in sync" so to speak - I haven't fully tested it yet. Ideally I'd like it to function in a similar way to how nix works where `setup.sh` runs priodically to keep my system in sync. Or maybe I'll just switch to nixos as somepoint....
 
   
 # Core Components:
