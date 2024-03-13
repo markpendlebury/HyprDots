@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sleep 0.5
+
+swww init
+swww img ~/.config/wallpapers/desktop-background.png

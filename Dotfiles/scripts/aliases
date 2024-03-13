@@ -1,0 +1,34 @@
+#!/bin/zsh
+
+
+# Display the weather inside your terminal:
+alias weather='curl wttr.in/$POSTCODE'
+
+# mkdir and cd into it:
+mkcdir() {
+    mkdir -p -- "$1" &&
+    cd -P -- "$1" || exit
+}
+
+repos() {
+    cd ~/Documents/repos
+}
+
+# Copy the contents of a file to clipboard using xclip:
+clipboard() {
+    cat "$1" | xclip -sel clip
+    echo "The contents of $1 are now in your clipboard"
+}
+
+# This function calls my hashiversion api which
+# returns the latest version number for a
+# specified hashicorp product
+
+hashicorp.version() {
+    if [ $# -ne 1 ]; then
+        echo "Usage: hashicorp.version <application>"
+    else
+        curl -s https://hashiversion.elesoft.co.uk/$1
+    fi
+}
+

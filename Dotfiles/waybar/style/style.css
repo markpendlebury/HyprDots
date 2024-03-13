@@ -1,0 +1,87 @@
+* {
+  font-family: JetBrainsMono Nerd Font;
+  font-size: 16px;
+  font-style: normal;
+  min-height: 0;
+}
+
+window#waybar {
+  background: rgba(30, 30, 46, 0.5);
+  border-bottom: 1px solid #282828;
+  margin-left: -0px;
+  color: #f4d9e1
+}
+
+
+#custom-launcher {
+  color: #e5809e;
+  background-color: rgba(29, 29, 44, 1);
+  border-radius: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  padding: 0 20px 0 20px;
+  font-size: 30px;
+}
+
+
+#workspaces {
+  background-color: rgba(29, 29, 44, 1);
+  border-radius: 0px 0px 75px 0px;
+  padding: 0 20px 0 20px;
+}
+
+
+#clock {
+  color: #C4CAED;
+  background-color: rgba(29, 29, 44, 1);
+  border-radius: 0px 0px 75px 75px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: 0px;
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+
+
+#tray {
+  color: #C4CAED;
+  background-color: rgba(29, 29, 44, 1);
+  border-radius: 0px 0px 0px 75px;
+  padding-right: 15px;
+  padding-left: 25px;
+}
+
+#privacy {
+  color: #C4CAED;
+  background-color: rgba(29, 29, 44, 1);
+  border-radius: 0px 0px 0px 0px;
+  padding-right: 15px;
+  padding-left: 25px;
+}
+
+
+#bluetooth {
+  color: #C4CAED;
+  background-color: rgba(29, 29, 44, 1);
+  border-radius: 0px 0px 0px 0px;
+  padding-right: 15px;
+  padding-left: 25px;
+}
+
+#pulseaudio {
+  color: #C4CAED;
+  background-color: rgba(29, 29, 44, 1);
+  border-radius: 0px 0px 0px 0px;
+  padding-right: 15px;
+}
+
+
+#custom-hyprpicker {
+  color: #C4CAED;
+  background-color: rgba(29, 29, 44, 1);
+  border-radius: 0px 0px 0px 0px;
+  padding-right: 25px;
+}
