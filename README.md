@@ -7,7 +7,7 @@
 
 A fully repeatable desktop environment built on Arch using Hyprland
 
-Welcome! My goal with this repository was to provide myself with a personal development desktop environment that is repeatable and managed by source control. This allows me to make changes, test them, throw them away and move them to a new machine / fresh install with minimal post-setup.
+Welcome! My goal with this repository was to provide myself with a development desktop environment that is repeatable and managed by source control. This allows me to make changes, test them, throw them away and move them to a new machine / fresh install with minimal post-setup.
 
 # Screenshots
 
